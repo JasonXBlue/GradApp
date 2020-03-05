@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jasonblue/Desktop/Capstone/GradApp/GradApp/PetAPI.Infrastructure/PetAPI.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/Users/jasonblue/Desktop/Capstone/GradApp/GradApp/PetAPI.Core/PetAPI.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jasonblue/Desktop/Capstone/GradApp/GradApp/PetAPI.Core/PetAPI.Core.csproj",
+        "projectName": "PetAPI.Core",
+        "projectPath": "/Users/jasonblue/Desktop/Capstone/GradApp/GradApp/PetAPI.Core/PetAPI.Core.csproj",
+        "packagesPath": "/Users/jasonblue/.nuget/packages/",
+        "outputPath": "/Users/jasonblue/Desktop/Capstone/GradApp/GradApp/PetAPI.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jasonblue/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jasonblue/Desktop/Capstone/GradApp/GradApp/PetAPI.Infrastructure/PetAPI.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jasonblue/Desktop/Capstone/GradApp/GradApp/PetAPI.Infrastructure/PetAPI.Infrastructure.csproj",
+        "projectName": "PetAPI.Infrastructure",
+        "projectPath": "/Users/jasonblue/Desktop/Capstone/GradApp/GradApp/PetAPI.Infrastructure/PetAPI.Infrastructure.csproj",
+        "packagesPath": "/Users/jasonblue/.nuget/packages/",
+        "outputPath": "/Users/jasonblue/Desktop/Capstone/GradApp/GradApp/PetAPI.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jasonblue/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/Users/jasonblue/Desktop/Capstone/GradApp/GradApp/PetAPI.Core/PetAPI.Core.csproj": {
+                "projectPath": "/Users/jasonblue/Desktop/Capstone/GradApp/GradApp/PetAPI.Core/PetAPI.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
