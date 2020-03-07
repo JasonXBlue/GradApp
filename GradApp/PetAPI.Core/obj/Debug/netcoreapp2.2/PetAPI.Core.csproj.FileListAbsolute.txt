@@ -1,0 +1,8 @@
+/Users/jasonblue/Desktop/Capstone/GradApp/GradApp/PetAPI.Core/bin/Debug/netcoreapp2.2/PetAPI.Core.deps.json
+/Users/jasonblue/Desktop/Capstone/GradApp/GradApp/PetAPI.Core/bin/Debug/netcoreapp2.2/PetAPI.Core.dll
+/Users/jasonblue/Desktop/Capstone/GradApp/GradApp/PetAPI.Core/bin/Debug/netcoreapp2.2/PetAPI.Core.pdb
+/Users/jasonblue/Desktop/Capstone/GradApp/GradApp/PetAPI.Core/obj/Debug/netcoreapp2.2/PetAPI.Core.csprojAssemblyReference.cache
+/Users/jasonblue/Desktop/Capstone/GradApp/GradApp/PetAPI.Core/obj/Debug/netcoreapp2.2/PetAPI.Core.AssemblyInfoInputs.cache
+/Users/jasonblue/Desktop/Capstone/GradApp/GradApp/PetAPI.Core/obj/Debug/netcoreapp2.2/PetAPI.Core.AssemblyInfo.cs
+/Users/jasonblue/Desktop/Capstone/GradApp/GradApp/PetAPI.Core/obj/Debug/netcoreapp2.2/PetAPI.Core.dll
+/Users/jasonblue/Desktop/Capstone/GradApp/GradApp/PetAPI.Core/obj/Debug/netcoreapp2.2/PetAPI.Core.pdb

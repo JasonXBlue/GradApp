@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using PetAPI.Core.Services;
+using PetAPI.Infrastructure.Data;
 
 namespace GradApp
 {
@@ -25,7 +27,21 @@ namespace GradApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc()
+                .SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
+                .AddJsonOptions(OptionsBuilder =>
+                {
+                    OptionsBuilder.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+                });
+
+            services.AddDbContext<AnimalContext>();
+
+            services.AddScoped<IAnimalRepository, AnimalRepository>();
+            services.AddScoped<IAnimalService, AnimalService>();
+
+            services.AddScoped<IShelterRepository, ShelterRepository>();
+            services.AddScoped<IShelterService, ShelterService>();
+                    
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

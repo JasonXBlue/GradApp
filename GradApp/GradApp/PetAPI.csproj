@@ -7,7 +7,7 @@
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'GradApp' ">
     <StartAction>Project</StartAction>
-    <LaunchUrl>api/values</LaunchUrl>
+    <LaunchUrl>api/animals</LaunchUrl>
     <ApplicationURL>https://localhost:5001;http://localhost:5000</ApplicationURL>
   </PropertyGroup>
   <ItemGroup>
@@ -25,5 +25,8 @@
     <ProjectReference Include="..\PetAPI.Infrastructure\PetAPI.Infrastructure.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ApiModels\" />
   </ItemGroup>
 </Project>
