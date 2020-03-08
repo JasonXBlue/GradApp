@@ -1,15 +1,18 @@
 ﻿<Properties StartupConfiguration="{A784262D-7B6D-43F1-8DCB-9DFAABEAE634}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="GradApp/Properties/launchSettings.json">
-    <Files>
-      <File FileName="GradApp/Properties/launchSettings.json" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GradApp" expanded="True">
             <Node name="PetAPI" expanded="True">
-              <Node name="Properties" expanded="True">
-                <Node name="launchSettings.json" selected="True" />
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="PetAPI.Core" expanded="True">
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="PetAPI.Infrastructure" expanded="True">
+              <Node name="Data" expanded="True">
+                <Node name="AnimalRepository.cs" selected="True" />
               </Node>
             </Node>
           </Node>

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using PetAPI.ApiModels;
 using PetAPI.Core.Services;
@@ -19,7 +20,8 @@ namespace PetAPI.Controllers
         public IActionResult Get()
         {
             var shelterModels = _shelterService
-                .GetAll();
+                .GetAll()
+                .ToApiModels();
 
             return Ok(shelterModels);
         }
